@@ -1,15 +1,36 @@
 import React from "react";
 
-import { Container } from "react-bootstrap";
-import { Parallax, Background } from "react-parallax";
+import { Container, Row } from "react-bootstrap";
 
 const About = () => {
 	return (
-		<Container className="col-md-6 mx-auto dflex text-center fontvariantsc">
-			<h1>About me</h1>
-			<div>
-				<h4>Email Me</h4>
-			</div>
+		<Container fluid className="my-5">
+			<Row className="my-5">
+				<div className="col-12 text-center">
+					<h3>Hi</h3>
+					<p>I'm a Full-Stack Developer based in Fremont, CA.</p>
+					<p>I have a passion in Software Engineering.</p>
+
+					<p>Currently I am looking for a professional environment to level up my knowledge</p>
+
+					<p>If you would like to see a sampling of my work or are interested in starting a project together, please get in touch</p>
+				</div>
+			</Row>
+
+			<Row className="my-5">
+				<div className="col-12 text-center">
+					<h3 className=" fontvariantsc my-4">Contact Me for Work</h3>
+
+					<p>Jonpak1987@gmail.com</p>
+					<p>1-(408) 412-0659</p>
+					<p>
+						<a href="https://www.linkedin.com/in/jonathan-pak/">My LinkedIn</a>
+					</p>
+					<p>
+						<a href="https://github.com/simpleCodify">My Github</a>
+					</p>
+				</div>
+			</Row>
 		</Container>
 	);
 };
