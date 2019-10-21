@@ -7,11 +7,12 @@ const About = () => {
 		<Container fluid className="my-5">
 			<Row className="my-5">
 				<div className="col-12 text-center">
-					<h3>Hi</h3>
+					<h3 className="my-5">Hi</h3>
 					<p>I'm a Full-Stack Developer based in Fremont, CA.</p>
 					<p>I have a passion in Software Engineering.</p>
 
-					<p>Currently I am looking for a professional environment to level up my knowledge</p>
+					<p>Currently looking for a professional environment to level up my knowledge</p>
+					<br />
 
 					<p>If you would like to see a sampling of my work or are interested in starting a project together, please get in touch</p>
 				</div>
