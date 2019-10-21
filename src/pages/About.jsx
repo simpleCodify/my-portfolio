@@ -6,15 +6,15 @@ const About = () => {
 	return (
 		<Container fluid className="my-5">
 			<Row className="my-5">
-				<div className="col-12 text-center">
-					<h3 className="my-5">Hi</h3>
-					<p>I'm a Full-Stack Developer based in Fremont, CA.</p>
-					<p>I have a passion in Software Engineering.</p>
+				<div className="col-12 col-lg-5 col-md-5 mx-auto text-center">
+					<h2 className="my-5">Hi</h2>
+					<p className="mb-0 lead">I'm a Full-Stack Developer based in Fremont, CA.</p>
+					<p className="mb-0 lead">Currently looking for a professional environment to level up my knowledge</p>
+					<p className="mb-0 lead">I have a passion in Software Engineering & Web Development.</p>
+					<h4 className="fontvariantsc my-5">Technologies that Pique my interest</h4>
+					<p className="lead">Big Data, Cloud, Hadoop, Machine Learning, Mobile-Development, Mobile-Games, Game-Development, UI/UX Design</p>
 
-					<p>Currently looking for a professional environment to level up my knowledge</p>
 					<br />
-
-					<p>If you would like to see more of my work or are interested in starting a project together, please get in touch</p>
 				</div>
 			</Row>
 
@@ -76,6 +76,9 @@ const About = () => {
 					</Card>
 				</div>
 			</Row>
+			<div className="col-6 mx-auto">
+				<p className="fontvariantsc">if you would like to see more of my work or are interested in starting a project together, please get in touch</p>
+			</div>
 		</Container>
 	);
 };
