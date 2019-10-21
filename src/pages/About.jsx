@@ -77,7 +77,7 @@ const About = () => {
 				</div>
 			</Row>
 			<div className="col-6 mx-auto">
-				<p className="fontvariantsc">if you would like to see more of my work or are interested in starting a project together, please get in touch</p>
+				<p className="fontvariantsc text-center">if you would like to see more of my work or are interested in starting a project together, please get in touch</p>
 			</div>
 		</Container>
 	);
