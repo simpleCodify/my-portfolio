@@ -1,0 +1,172 @@
+.App {
+	text-align: center;
+}
+
+.App-logo {
+	height: 40vmin;
+}
+
+.App-header {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.App-link {
+	color: #09d3ac;
+}
+
+.fontvariantsc {
+	font-variant: small-caps;
+}
+
+/* Resources: */
+/* Git Icon: https://image.flaticon.com/icons/svg/2111/2111432.svg
+FaceBook Icon: https://image.flaticon.com/icons/svg/145/145802.svg
+Google Icon: https://image.flaticon.com/icons/svg/145/145804.svg
+LinkedIn Icon: https://image.flaticon.com/icons/svg/145/145807.svg */
+
+.iconContainer {
+	height: 35px;
+	width: 35px;
+	border-radius: 50%;
+}
+
+.hrLine {
+	width: 85vw;
+	border-color: rgba(121, 121, 121, 0.315);
+}
+
+.rr_link2:link,
+.rr_link2:hover,
+.rr_link2:visited,
+.rr_link2:active {
+	text-decoration: none;
+	color: white;
+}
+
+.badge {
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+	transition: all 0.5s ease 0s;
+	cursor: pointer;
+}
+
+.badge:hover {
+	transform: translateY(-5px);
+}
+
+.light-border {
+	border: 2px solid #5588a375;
+}
+
+.app-panel {
+	border-radius: 25px;
+}
+
+.card {
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+	transition: all 0.5s ease 0s;
+}
+
+.card:hover {
+	transform: translateY(-20px);
+}
+
+.badge {
+	width: 70px;
+}
+
+/*----- SCROLLBAR BEGONE -----*/
+::-webkit-scrollbar {
+	width: 0px;
+	background: transparent; /* make scrollbar transparent */
+}
+/*----- SCROLLBAR BEGONE -----*/
+
+.navbarlink {
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	-webkit-animation-timing-function: ease-in-out;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+
+.navbarlink:hover {
+	animation-name: bounce;
+}
+
+@keyframes bounce {
+	0%,
+	100%,
+	20%,
+	50%,
+	80% {
+		-webkit-transform: translateY(0);
+		-ms-transform: translateY(0);
+		transform: translateY(0);
+	}
+	40% {
+		-webkit-transform: translateY(-20px);
+		-ms-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+	60% {
+		-webkit-transform: translateY(-8px);
+		-ms-transform: translateY(-8px);
+		transform: translateY(-8px);
+	}
+}
+
+/* Transitions */
+
+@keyframes cardMoveInLeft {
+	0% {
+		opacity: 0;
+		transform: translateX(-100rem);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes cardMoveInRight {
+	0% {
+		opacity: 0;
+		transform: translateX(100rem);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes cardMoveInBottom {
+	0% {
+		opacity: 0;
+		transform: translateY(-100rem);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes cardMoveInTop {
+	0% {
+		opacity: 0;
+		transform: translateY(-100rem);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
