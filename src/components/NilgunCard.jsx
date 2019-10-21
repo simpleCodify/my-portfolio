@@ -26,12 +26,12 @@ const NilgunCard = () => {
 									<p className="my-2 text-truncated">Freelance Website Development</p>
 									<p className="my-2">
 										<Badge className="mr-3" pill variant="dark">
-											<a className="rr_link2" href="https://github.com/simpleCodify/co-lab" target="_blank">
+											<a className="rr_link2" href="#" target="_blank">
 												Github
 											</a>
 										</Badge>
 										<Badge className="mr-3" pill variant="info">
-											<a className="rr_link2" href="http://co-lab-oration.herokuapp.com/" target="_blank">
+											<a className="rr_link2" href="#" target="_blank">
 												Site
 											</a>
 										</Badge>

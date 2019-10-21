@@ -14,9 +14,9 @@ const Homepage = () => {
 			</Parallax>
 
 			<Parallax strength={300} blur={{ min: 0, max: 5 }} style={{ height: "20vh", borderTop: "10px inset gray", borderBottom: "10px inset gray" }}>
-				<Container className="my-5">
+				<Container className="my-3">
 					<h1 className="fontvariantsc">Jonathan Pak</h1>
-					<p className="my-3">Driven by a vast amount of curiosity, a Full Stack developer on a quest to traverse the limitless seas of technologies</p>
+					<p>Driven by a vast amount of curiosity, a Full Stack developer on a quest to traverse the limitless seas of technologies</p>
 				</Container>
 			</Parallax>
 
@@ -27,9 +27,9 @@ const Homepage = () => {
 			</Parallax>
 
 			<Parallax strength={1500} blur={{ min: -15, max: 35 }} style={{ height: "20vh", borderTop: "10px inset gray", borderBottom: "10px inset gray" }}>
-				<Container className="my-5">
+				<Container className="my-3">
 					<h1>Technologies</h1>
-					<p className="my-3">React.js, Node.js, Express.js, MongoDB, Mongoose, PostgreSQL, MySQL, SQL, JavaScript, Ruby, HTML5, CSS3, React-Bootstrap, Bootstrap </p>
+					<p>React.js, Node.js, Express.js, MongoDB, Mongoose, PostgreSQL, MySQL, SQL, JavaScript, Ruby, HTML5, CSS3, React-Bootstrap, Bootstrap </p>
 				</Container>
 			</Parallax>
 
@@ -40,9 +40,9 @@ const Homepage = () => {
 			</Parallax>
 
 			<Parallax strength={1000} blur={{ min: -15, max: 25 }} style={{ height: "20vh", borderTop: "10px inset gray", borderBottom: "10px inset gray" }}>
-				<Container className="my-5">
+				<Container className="my-3">
 					<h1>Knowledge</h1>
-					<p className="my-3">Committed to the expanse of his knowledge and broadening his skillset, he seeks a professional environment that can contribute to his learning and growth</p>
+					<p>Committed to the expanse of his knowledge and broadening his skillset, he seeks a professional environment that can contribute to his learning and growth</p>
 				</Container>
 			</Parallax>
 

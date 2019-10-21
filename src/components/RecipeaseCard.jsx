@@ -14,7 +14,7 @@ const RecipeaseCard = () => {
 	return (
 		<Container className="align-middle my-auto">
 			<Row className="mt-5">
-				<div className="col-6 mx-auto">
+				<div className="col-12 col-lg-6 col-md-8 mx-auto">
 					<Card className="app-panel align-middle light-border" style={imgStyle}>
 						<Card.Body>
 							<Row>
