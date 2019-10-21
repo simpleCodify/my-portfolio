@@ -56,17 +56,17 @@ const About = () => {
 							<Row className="col-12 text-left">
 								<p className="my-2">
 									<Badge className="mr-3" pill variant="dark">
-										<a className="rr_link2" href="#" target="_blank">
+										<a className="rr_link2" href="https://github.com/simpleCodify" target="_blank">
 											Github
 										</a>
 									</Badge>
-									<Badge className="mr-3" pill variant="info">
-										<a className="rr_link2" href="#" target="_blank">
-											Site
+									<Badge className="mr-3" pill variant="primary">
+										<a className="rr_link2" href="https://www.linkedin.com/in/jonathan-pak/" target="_blank">
+											LinkedIn
 										</a>
 									</Badge>
 									<Badge className="mr-3" pill variant="info">
-										<a className="rr_link2" href="#" target="_blank">
+										<a className="rr_link2" href="www.simplecodify.com" target="_blank">
 											Site
 										</a>
 									</Badge>
