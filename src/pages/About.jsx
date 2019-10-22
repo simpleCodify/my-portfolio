@@ -66,7 +66,7 @@ const About = () => {
 										</a>
 									</Badge>
 									<Badge className="mr-3" pill variant="info">
-										<a className="rr_link2" href="www.simplecodify.com" target="_blank">
+										<a className="rr_link2" href="http://www.simplecodify.com" target="_blank">
 											Site
 										</a>
 									</Badge>
