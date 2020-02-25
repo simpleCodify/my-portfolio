@@ -13,25 +13,25 @@ let imgStyle = { animation: `${name} ${time}s` };
 const NilgunCard = () => {
 	return (
 		<Container className="align-middle my-auto">
-			<Row>
+			<Row className="mt-5">
 				{/* <Row className="mt-5"> */}
-				<div className="col-6 mx-auto">
+				<div className="col-12 col-lg-6 col-md-8 mx-auto">
 					<Card className="app-panel align-middle light-border" style={imgStyle}>
 						<Card.Body>
 							<Row>
 								<div className="col-12 mx-auto text-left">
 									<h3 className="mb-1 text-truncated">NY Engineering</h3>
 									<p className="mb-0 text-truncated text-muted">React SPA Website</p>
-									<small className="text-truncated text-muted">(React.js, Javascript )</small>
+									<small className="text-truncated text-muted">(React.js, JavaScript, Bootstrap )</small>
 									<p className="my-2 text-truncated">Freelance Website Development</p>
 									<p className="my-2">
 										<Badge className="mr-3" pill variant="dark">
-											<a className="rr_link2" href="#" target="_blank">
+											<a className="rr_link2" href="https://github.com/simpleCodify/ny-engineering" target="_blank">
 												Github
 											</a>
 										</Badge>
 										<Badge className="mr-3" pill variant="info">
-											<a className="rr_link2" href="#" target="_blank">
+											<a className="rr_link2" href="https://www.nyengineering.net" target="_blank">
 												Site
 											</a>
 										</Badge>

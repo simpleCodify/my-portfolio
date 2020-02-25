@@ -21,7 +21,7 @@ const StardustCard = () => {
 								<div className="col-12 mx-auto text-left">
 									<h3 className="mb-1 text-truncated">a stardust truce</h3>
 									<p className="mb-0 text-truncated text-muted">Full Stack Django Collaboration Application</p>
-									<small className="text-truncated text-muted">(Pyhon, PostgreSQL, Django, Javascript)</small>
+									<small className="text-truncated text-muted">(Pyhon, PostgreSQL, Django, JavaScript)</small>
 									<p className="my-2 text-truncated">An interactive learning tool designed to assist student comprehension of core computer science concepts</p>
 									<p className="my-2">
 										<Badge className="mr-3" pill variant="dark">

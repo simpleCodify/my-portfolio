@@ -12,7 +12,7 @@ const About = () => {
 					<p className="mb-0 lead">Currently looking for a professional environment to level up my knowledge</p>
 					<p className="mb-0 lead">I have a passion in Software Engineering & Web Development.</p>
 					<h4 className="fontvariantsc my-5">Technologies that Pique my interest</h4>
-					<p className="lead">Big Data, Cloud, Hadoop, Machine Learning, Mobile-Development, Mobile-Games, Game-Development, UI/UX Design</p>
+					<p className="lead">Web-Application Development, Mobile-Development, Cloud Platforms, Machine Learning, React, JavaScript, Postman, UI / UX Design</p>
 
 					<br />
 				</div>

@@ -20,7 +20,7 @@ const EchoCard = () => {
 							<Row>
 								<div className="col-12 mx-auto text-left">
 									<h3 className="mb-1 text-truncated">Project ECHO</h3>
-									<p className="mb-0 text-truncated text-muted">HTML, CSS, Javascript</p>
+									<p className="mb-0 text-truncated text-muted">HTML, CSS, JavaScript</p>
 									<small className="text-truncated text-muted">Utilizing localStorage with JSON to persist data</small>
 									<p className="my-2 text-truncated">A simple "Simon" game with a musical touch</p>
 									<p className="my-2">
