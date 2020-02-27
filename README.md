@@ -1,1 +1,1 @@
-My [Portfolio](www.simplecodify.com) Website created with React
+My [Portfolio](http://www.simplecodify.com/) Website created with React
